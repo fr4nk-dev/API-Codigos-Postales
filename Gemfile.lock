@@ -27,9 +27,11 @@ GEM
     pg (0.21.0)
     puma (4.3.5)
       nio4r (~> 2.0)
-    rack (2.2.2)
+    rack (2.2.3)
     rack-cache (1.12.0)
       rack (>= 0.4)
+    rack-cors (1.1.1)
+      rack (>= 2.0.0)
     rack-ssl (1.4.1)
       rack
     rake (13.0.1)
@@ -54,6 +56,7 @@ DEPENDENCIES
   puma
   rack
   rack-cache
+  rack-cors
   rack-ssl
   rake
   rubyzip (>= 1.1.0)
@@ -63,4 +66,4 @@ RUBY VERSION
    ruby 2.6.6p146
 
 BUNDLED WITH
-   1.17.3
+   2.1.4
